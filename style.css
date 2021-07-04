@@ -8,7 +8,6 @@ html, body {
     height: 100vh;
 }
 
-
 header {
     /*background-color: rgb(192, 177, 177);*/
     max-width: 100%;
@@ -16,51 +15,76 @@ header {
     padding-top: 1.8vw;
     padding-bottom: 1.8vw;
     text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-header h1 {
+.header-title h1 {
     margin: auto;
     font-weight: 100;
     font-style: italic;
-    font-size: 4em;
+    font-size: 4.5em;
     text-align: center;
-    
+    }
 
+
+nav {
+    margin-top: 1.8vw;
+    margin-bottom: 0;
 }
 
+
 .nav-menu-items {
-    /*background-color: rgb(177, 192, 179);*/
-    margin: 20px 100px 20px 100px;
+    
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    text-decoration: none;
-     
+
+    line-height: 1.6em;
+    font-size: .8em;
+    letter-spacing: 0.1em;
+    font: ;
+    
 }
 
 .nav-menu-items a{
     text-decoration: none;
+    color: black;
+    transition: 0.25s;
 }
 
 .nav-menu-items li {
     
-    margin: auto;
-    text-align: center;
     list-style-type: none;
-    
-    
+        
 }
 
+.nav-menu-items li a{
+    
+    padding: 2px;
+    margin: 5px;
+    font-weight: 500;
+    
+        
+}
+
+a:hover {
+    color: red;
+}
+
+
 .content-wrapper {
-    background-color: rgb(102, 155, 201);
+
     display: flex;
     justify-content: center;
     margin: auto;
+    margin-top: 2.5vw;
     
 }
 
 .text {  
-    background-color: rgb(46, 112, 170);
+
     width: 50%;
 }
 

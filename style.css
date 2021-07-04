@@ -44,14 +44,15 @@ nav {
     line-height: 1.6em;
     font-size: .8em;
     letter-spacing: 0.1em;
-    font: ;
-    
+       
 }
 
 .nav-menu-items a{
     text-decoration: none;
     color: black;
-    transition: 0.25s;
+    text-decoration: underline solid rgba(0, 0, 0, 0) 0.1em;
+    text-underline-offset: 0.2em;
+    transition: 0.3s;
 }
 
 .nav-menu-items li {
@@ -69,10 +70,24 @@ nav {
         
 }
 
-a:hover {
-    color: red;
+
+#current_page {
+    color: rgb(90, 90, 90);
+    text-decoration: underline solid rgb(90, 90, 90, 1) 0.1em;
+    text-underline-offset: 0.4em;
 }
 
+
+a:hover {
+    color: rgb(177, 177, 177, 1);
+    text-decoration: underline solid rgb(177, 177, 177, 1) 0.1em;
+    text-underline-offset: 0.4em;
+    
+}
+
+#current_page:hover{
+    color: rgb(177, 177, 177);
+}
 
 .content-wrapper {
 

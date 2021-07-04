@@ -105,18 +105,33 @@ a:hover {
 
 footer {
     
-    background-color: bisque;
+    /*background-color: rgb(247, 247, 247);*/
     margin-top: 2.5vh;
     width: 100%;
-    
-    /*
-    background-color: bisque;
-    margin: 0;
-    margin-top: 2.5vh;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    flex-shrink: 0;
-    */
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
+
+.footer_links {
+    display: flex;
+    flex-direction: row;
+    font-weight: 500;
+    line-height: 1.6em;
+    font-size: .8em;
+    letter-spacing: 0.12em;
+
+
+    justify-content: center;
+    list-style-type: none;
+    
+    padding: 0 15vw;
+    border-top: 1px solid  black;
+
+}
+
+.footer_links li {
+    padding: 5px;
+    margin: 3px;
+}
+

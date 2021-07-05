@@ -100,28 +100,29 @@ a:hover {
     
 }
 
+
 .picture {
     float: left;
-}
-
-
-.text {   
     
 }
+
 
 .about  {
-    background-color: rgb(179, 194, 209);
     
+    display: flex;
+    align-items: center;
         
 }
 
-.about-text {
-    background-color: aliceblue;
+@media screen and (max-width:950px) {
+    .about {
+        flex-direction: column;
+    }
 }
 
 footer {
     
-    /*background-color: rgb(247, 247, 247);*/
+    
     margin-top: 2.5vh;
     width: 100%;
     display: flex;

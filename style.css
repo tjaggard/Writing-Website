@@ -12,7 +12,6 @@ html, body {
 }
 
 header {
-    /*background-color: rgb(192, 177, 177);*/
     max-width: 100%;
     padding-top: 1.8vw;
     padding-bottom: 1.8vw;
@@ -92,15 +91,32 @@ a:hover {
 .content-wrapper {
 
     display: flex;
+    flex-direction: row;
     justify-content: center;
+    align-items: center;
     margin: auto;
     margin-top: 2.5vw;
+    width: 70%;
     
 }
 
-.text {  
+.picture {
+    float: left;
+}
 
-    width: 50%;
+
+.text {   
+    
+}
+
+.about  {
+    background-color: rgb(179, 194, 209);
+    
+        
+}
+
+.about-text {
+    background-color: aliceblue;
 }
 
 footer {

@@ -114,11 +114,7 @@ a:hover {
         
 }
 
-@media screen and (max-width:950px) {
-    .about {
-        flex-direction: column;
-    }
-}
+
 
 footer {
     
@@ -152,3 +148,10 @@ footer {
     margin: 3px;
 }
 
+
+
+@media screen and (max-width:950px) {
+    .about {
+        flex-direction: column;
+    }
+}

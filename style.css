@@ -95,9 +95,16 @@ a:hover {
     justify-content: center;
     align-items: center;
     margin: auto;
-    margin-top: 2.5vw;
+    margin-top: auto;
+    margin-bottom: auto;
     width: 70%;
     
+}
+
+@media screen and (max-width:1200px) {
+    .content-wrapper {
+        width: 90%;
+    }
 }
 
 

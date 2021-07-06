@@ -49,6 +49,20 @@ nav {
        
 }
 
+@media screen and (viewport-width:950px) {
+    .nav-menu-items {
+        line-height: 1.8em;
+        font-size: 1.0em;
+    }
+}
+@media screen and (max-width:950px) {
+    .nav-menu-items {
+        line-height: 1.8em;
+        font-size: 1.0em;
+    }
+}
+
+
 .nav-menu-items a{
     text-decoration: none;
     color: black;

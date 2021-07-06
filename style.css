@@ -13,8 +13,8 @@ html, body {
 
 header {
     max-width: 100%;
-    padding-top: 1.8vw;
-    padding-bottom: 1.8vw;
+    padding-top: 1.0vw;
+    padding-bottom: 2.0vw;
     text-transform: uppercase;
     
 }
@@ -157,6 +157,11 @@ footer {
 
 
 
+@media screen and (viewport-width:950px) {
+    .about {
+        flex-direction: column;
+    }
+}
 @media screen and (max-width:950px) {
     .about {
         flex-direction: column;

@@ -1,4 +1,6 @@
 
+/* FULL PAGE CSS + NAVBAR*/
+
 html, body {
     background-color: #fff;
     font-family: "Roboto", sans-serif;
@@ -101,13 +103,13 @@ a:hover {
     
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1024px) {
     .content-wrapper {
         width: 90%;
     }
 }
 
-
+/* INDEX PAGE CSS */
 .picture {
     float: left;
     
@@ -121,7 +123,58 @@ a:hover {
         
 }
 
+@media screen and (viewport-width:950px) {
+    .about {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:950px) {
+    .about {
+        flex-direction: column;
+    }
+}
 
+
+/* RECORDINGS PAGE CSS */
+
+.recordings {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.recording-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+
+    
+}
+
+.recordings-about h1{
+    text-align: center;
+}
+
+.recordings-about p{
+    text-align: left;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.audio {
+
+}
+
+
+
+
+
+/* FOOTER CSS */
 
 footer {
     
@@ -157,13 +210,3 @@ footer {
 
 
 
-@media screen and (viewport-width:950px) {
-    .about {
-        flex-direction: column;
-    }
-}
-@media screen and (max-width:950px) {
-    .about {
-        flex-direction: column;
-    }
-}
